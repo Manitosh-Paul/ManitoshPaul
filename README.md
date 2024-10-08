@@ -16,7 +16,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **CSS Libraries**: Animations, Flexbox, Responsive Media Queries
-- **Deployment**: GitHub Pages (or specify your hosting platform)
+- **Deployment**: GitHub Pages
 
 ## How to Use
 
