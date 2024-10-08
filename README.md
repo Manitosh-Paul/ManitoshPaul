@@ -43,7 +43,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ├── projects.html          # Projects page
 ├── contact.html           # Contact page with a form
 ├── css/                   # Directory for all CSS files
-│   ├── responsive         # Directory for all Css files for responsive design
+│   ├── responsive/         # Directory for all Css files for responsive design
 │   ├── style.css          # Main stylesheet
 │   ├── universal.css      # Uinversal Styles
 ├── js/                    # Directory for JavaScript files
