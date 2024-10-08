@@ -158,10 +158,10 @@
     height: 40px;
   }
   #prev-btn {
-    left: 30%;
+     left: 5%;
   }
   #next-btn {
-    right: 30%;
+    right: 3%;
   }
   .project-title {
     margin-bottom: 1rem;
