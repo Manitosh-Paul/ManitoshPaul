@@ -7,8 +7,8 @@ function duplicateIconImg() {
   duplicateIconCarousel.classList.add(iconCarousel.classList[0]);
   iconImg.forEach((element) => {
     let duplicateElement = document.createElement("img");
-    duplicateElement.src = element.src;
-    duplicateElement.alt = element.alt;
+    duplicateElement.src = element.getAttribute("src");
+    duplicateElement.alt = element.getAttribute("alt");
     duplicateIconCarousel.appendChild(duplicateElement);
   });
   wrapperCarousel.appendChild(duplicateIconCarousel);
