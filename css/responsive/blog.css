@@ -1,0 +1,35 @@
+@media screen and (max-width: 546px) {
+  .nav-item-tooltip {
+    top: 33px;
+    background: transparent;
+    border: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    color: var(--white);
+    padding: 0 0.3rem;
+    font-size: 0.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav-item:hover .nav-item-tooltip {
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.7rem;
+  }
+  .nav-item-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .nav-container {
+    padding-bottom: 0.5rem;
+  }
+}

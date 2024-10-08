@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Manitosh Paul</title>
+    <link rel="stylesheet" href="css/universal.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive/font-size.css" />
+    <link rel="stylesheet" href="css/responsive/home.css" />
+    <script
+      src="https://kit.fontawesome.com/5b08bf92b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="image/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="image/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="image/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="image/favicon_io/site.webmanifest" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="transition transition-home glass-card is-active"></div>
+      <div id="profile-card" class="glass-card">
+        <div class="profile-design profile-introduction">
+          <div class="person-name">
+            <h3 class="roboto-bold fs-h">manitosh paul</h3>
+          </div>
+          <div class="person-catchLine">
+            <p class="roboto-medium fs-t">
+              passionate
+              <span
+                class="blue-text animation-outlined"
+                data-text="full stack web developer"
+                >full stack web developer</span
+              >
+              aspirant. ready to ignite innovation.
+            </p>
+          </div>
+          <div class="profile-btn-container">
+            <button class="btn primary-btn roboto-medium" id="resume">
+              Download CV
+            </button>
+            <button class="btn secondary-btn roboto-medium" id="view-projects">
+              View Projects
+            </button>
+          </div>
+        </div>
+        <div class="profile-design profile-img-container">
+          <div class="profile-img-border"></div>
+          <figure class="profile-img">
+            <img
+              src="image/profile-manitosh.jpg"
+              alt="manitosh profile picture"
+              id="profile-me"
+            />
+          </figure>
+        </div>
+      </div>
+      <div id="social-media-contact">
+        <a
+          href="https://github.com/Manitosh-Paul"
+          class="contact-social github"
+        >
+          <i class="fa-brands fa-github fs-b"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/manitosh-paul/"
+          class="contact-social linkedin"
+        >
+          <i class="fa-brands fa-linkedin fs-b"></i>
+        </a>
+        <a href="https://x.com/ManitoshPaul" class="contact-social twitter">
+          <i class="fa-brands fa-twitter fs-b"></i>
+        </a>
+        <a href="contact.html" class="contact-social gmail">
+          <i class="fa-solid fa-envelope fs-b"></i>
+        </a>
+      </div>
+      <nav class="nav-container glass-card">
+        <div class="nav-item">
+          <span class="nav-item-tooltip roboto-medium home">Home</span>
+          <i class="fa-solid fa-house fs-i"></i>
+        </div>
+        <div class="nav-item">
+          <span class="nav-item-tooltip roboto-medium about-us">About</span>
+          <i class="fa-solid fa-user fs-i"></i>
+        </div>
+        <div class="nav-item">
+          <span class="nav-item-tooltip roboto-medium projects">Projects</span>
+          <i class="fa-solid fa-code fs-i"></i>
+        </div>
+        <div class="nav-item">
+          <span class="nav-item-tooltip roboto-medium blog">Blog</span>
+          <i class="fa-solid fa-file-alt fs-i"></i>
+        </div>
+        <div class="nav-item">
+          <span class="nav-item-tooltip roboto-medium contact">Contact</span>
+          <i class="fa-solid fa-address-book fs-i"></i>
+        </div>
+      </nav>
+    </div>
+    <script src="js/app.js"></script>
+    <script>
+      const resume = document.getElementById("resume");
+      const viewProjects = document.getElementById("view-projects");
+      viewProjects.addEventListener("click", () => {
+        window.location.href = "projects.html";
+      });
+      resume.addEventListener("click", () => {
+        window.location.href =
+          "https://drive.google.com/file/d/1-hlUr1tc_8bFwgSNX9QVlkqjmOSm8YB9/view?usp=drivesdk";
+      });
+    </script>
+  </body>
+</html>

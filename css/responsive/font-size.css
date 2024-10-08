@@ -1,0 +1,49 @@
+@media screen and (max-width: 1300px) {
+  .fs-b {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 954px) {
+  .fs-h {
+    font-size: 2rem;
+  }
+
+  .fs-t {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fs-h {
+    font-size: 1.25rem;
+  }
+
+  .fs-t {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .fs-i {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .fs-t {
+    font-size: 1rem;
+  }
+  .fs-b {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .fs-h {
+    font-size: 1.1rem;
+  }
+
+  .fs-t {
+    font-size: 0.9rem;
+  }
+}
